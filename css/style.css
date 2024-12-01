@@ -1,0 +1,82 @@
+/* التنسيقات العامة */
+body {
+    font-family: 'Cairo', sans-serif;
+    line-height: 1.6;
+}
+
+/* تنسيقات القائمة العلوية */
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* تنسيقات القسم الرئيسي */
+.hero-section {
+    background-color: #f8f9fa;
+    padding: 4rem 0;
+}
+
+/* تنسيقات البطاقات */
+.card {
+    transition: transform 0.3s ease;
+    margin-bottom: 1.5rem;
+    border: none;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* تنسيقات العناوين */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+/* تنسيقات الأزرار */
+.btn-primary {
+    padding: 0.5rem 1.5rem;
+    border-radius: 25px;
+}
+
+/* تنسيقات تذييل الصفحة */
+footer {
+    margin-top: 2rem;
+}
+
+/* التصميم المتجاوب */
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 2rem 0;
+    }
+    
+    .card-img-top {
+        height: 180px;
+    }
+}
+
+/* تنسيقات إضافية للنص العربي */
+[dir="rtl"] {
+    text-align: right;
+}
+
+/* تنسيقات القسم الشعبي */
+.popular-articles {
+    background-color: #f8f9fa;
+    padding: 4rem 0;
+}
+
+/* تأثيرات التحويم */
+.card:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
